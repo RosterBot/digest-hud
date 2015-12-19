@@ -62,7 +62,7 @@ angular.module('digestHud', [])
 
   var digestTimings = [];
   var watchTimings = {};
-  var timingStack;
+  var timingStack = [];
   var overheadTiming = createTiming('$$ng-overhead');
   var digestHud = this;
   var inDigest = false;
